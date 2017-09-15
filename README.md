@@ -5,6 +5,8 @@ Deploy your ssh public key in a easier way
 # Fail tests and stdout to workaround any kind of problem deploying key
 
 
+
+-> Usage instructions <-
 1) Set your ssh key URL in the script.
 2) Host your script anywhere you would like to.
 3) Run by typing in shell: curl http://anywhereyoulike.com/sshpub.py | python -
