@@ -4,7 +4,7 @@
 # 09/14/2017
 #
 # Basic script to retrieve SSH Public key from URL and append (or create) to existing authorized_keys
-# Ideally built to be run using "curl http://www.fixit.inf.br/downloads/files/sshpub.py | python -"
+# Ideally built to be run using "curl https://thiagolinhares.github.io/sshkey/sshkey.py | python -"
 #
 
 import os
