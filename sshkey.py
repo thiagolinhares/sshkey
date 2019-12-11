@@ -16,7 +16,7 @@ import shutil
 destination = "/tmp/public_key"
 if os.path.exists(destination) is False:
         os.mkdir(destination)
-urllib.urlretrieve("http://www.fixit.inf.br/downloads/files/01-linhares-pubkey", os.path.join(destination, "01-linhares-pubkey"))
+urllib.urlretrieve("https://www.fixit.inf.br/downloads/files/01-linhares-pubkey", os.path.join(destination, "01-linhares-pubkey"))
 
 pubkey=open("/tmp/public_key/01-linhares-pubkey", "r")
 contents =pubkey.read()
